@@ -55,21 +55,18 @@ public class LearningSession {
 		 */
 		
 		
-		// point -3 should not begin the identifier with digit
-		int 0age=10;
-		
-		// should not use reserved keywords for identifier
-		int int =10;
-		
-		// other than _ and $ are not valid identifiers
-		int test age = 10;
-		
-		int #age=10;
-		
-		// from java 9. you cannot use the _ as identifier
-		int _ = 10;
-		
-		
+		/*
+		 * // point -3 should not begin the identifier with digit int 0age=10;
+		 * 
+		 * // should not use reserved keywords for identifier int int =10;
+		 * 
+		 * // other than _ and $ are not valid identifiers int test age = 10;
+		 * 
+		 * int #age=10;
+		 * 
+		 * // from java 9. you cannot use the _ as identifier int _ = 10;
+		 * 
+		 */
 		
 		/**
 		 * Best Practice -  Identifiers
@@ -79,7 +76,9 @@ public class LearningSession {
 		
 		String userName = "best";
 		
-		// String uName = "best";
+		// String uName = "best"; /n userName = "new";
+		
+		System.out.println(userName);
 		
 		
 
